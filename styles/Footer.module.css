@@ -1,0 +1,33 @@
+.footer {
+  border: 1px solid black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  min-width: 220px;
+  height: 70px;
+  border: 1px solid black;
+  background: #242424;
+  color: #fff;
+}
+
+.container {
+  height: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  max-width: 450px;
+  padding: 0 0.5rem;
+}
+
+.list_item {
+  padding: 0.5rem;
+}
