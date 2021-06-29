@@ -1,0 +1,18 @@
+.featured {
+  padding: 30px 0 60px;
+}
+
+.container {
+  width: 88%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.products_container {
+  width: 480px;
+  height: auto;
+}
+
+.products_div img {
+  max-width: 100%;
+}

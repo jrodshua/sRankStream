@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { useState } from 'react';
 import Image from 'next/image';
 import Nav from './nav';
@@ -12,7 +13,11 @@ export default function Header() {
       <div className={styles.wrapper}>
         <div className={styles.header_container}>
           <div className={styles.img_container}>
-            <Image src={logo} alt="logo" className={styles.header_img} />
+            <Link href="/">
+              <a>
+                <Image src={logo} alt="logo" className={styles.header_img} />
+              </a>
+            </Link>
           </div>
           <Nav menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         </div>

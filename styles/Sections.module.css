@@ -27,3 +27,9 @@
   padding: 0.75rem 1.25rem;
   border-radius: 3px;
 }
+
+.howTo {
+  padding: 60px 0 90px;
+  background: #242424;
+  color: #fff;
+}

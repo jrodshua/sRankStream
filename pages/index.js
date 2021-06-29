@@ -1,8 +1,11 @@
+import Stripe from 'stripe';
 import Head from 'next/head';
 import Hero from '../components/hero';
+import HowTo from '../components/howTo';
+import Featured from '../components/featured';
 import styles from '../styles/Home.module.css';
 
-export default function Home() {
+export default function Home({ products }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -17,7 +20,21 @@ export default function Home() {
       </Head>
       <main>
         <Hero />
+        <HowTo />
+        <Featured products={products} />
       </main>
     </div>
   );
+}
+
+export async function getStaticProps() {
+  const stripe = new Stripe(process.env.NEXT_STRIPE_SECRET_KEY);
+
+  const products = await stripe.products.list();
+
+  return {
+    props: {
+      products,
+    },
+  };
 }

@@ -12,10 +12,11 @@
 }
 
 .img_container {
-  display: flex;
   min-width: 130px;
   padding: 0 1rem;
 }
 
-.header_img {
+.img_container a {
+  height: 100%;
+  display: flex;
 }
