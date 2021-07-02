@@ -12,7 +12,7 @@ export default function Hero() {
             graphics to help take your streaming experience to the next level
           </p>
           <button type="button">
-            <Link href="/">
+            <Link href="/shop">
               <a>Explore Store</a>
             </Link>
           </button>

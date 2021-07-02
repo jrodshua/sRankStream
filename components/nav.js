@@ -23,7 +23,7 @@ export default function Nav({ menuOpen, setMenuOpen }) {
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link href="/shop">
                   <a>Shop</a>
                 </Link>
               </li>
@@ -46,7 +46,7 @@ export default function Nav({ menuOpen, setMenuOpen }) {
             </Link>
           </li>
           <li>
-            <Link href="/">
+            <Link href="/shop">
               <a>Shop</a>
             </Link>
           </li>

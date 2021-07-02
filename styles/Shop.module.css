@@ -1,0 +1,32 @@
+.header {
+  border: 1px solid red;
+  padding: 3.75rem 4.5rem;
+}
+
+.content {
+  border: 1px solid blue;
+  padding: 2rem 0;
+  width: 92%;
+  margin: 0 auto;
+}
+
+.content h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.flex {
+  border: 1px solid green;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.item {
+  border: 1px solid orange;
+  width: 50%;
+}
+
+.item h3 {
+  padding: 1rem 0;
+  text-align: center;
+}
